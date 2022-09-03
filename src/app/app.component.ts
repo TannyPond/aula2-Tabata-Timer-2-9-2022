@@ -11,7 +11,7 @@ export class AppComponent  {
   counter =  0;
   timer = setInterval(() =>{
     this.counter = this.counter + 1;
-  },1000);
+  },100);
   
   restartCounter(){
     this.counter = 0;
@@ -26,7 +26,8 @@ export class AppComponent  {
   getSegundos(){
     return Math.trunc(this.counter%60);
   }
-
+}
+/*
   numbers = this.getRandomNumbers();
   refreshRandomNumbers(){
     this.numbers = this.getRandomNumbers();
@@ -39,4 +40,4 @@ export class AppComponent  {
     }
     return arr;
   }
-}
+*/
