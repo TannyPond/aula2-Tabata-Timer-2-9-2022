@@ -11,7 +11,7 @@ export class AppComponent  {
   counter =  0;
   timer = setInterval(() =>{
     this.counter = this.counter + 1;
-  },100);
+  },1000);
   
   restartCounter(){
     this.counter = 0;

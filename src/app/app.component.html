@@ -1,16 +1,9 @@
-<h1>Tämnî Sïllva</h1>
+<h1>TABATA TIMER</h1>
 <hr>
 <h2>
   NOME: <u>{{name}}</u> 
 </h2>
-<hr>
-<!--ou-->
-<h2>
-IDADE <u>{{2022 - nascimento}} anos</u> 
-</h2>
-<h2>
-  IDADE <u>{{getIdade()}} anos</u> 
-</h2>
+
 <!--COntador da classe TS-->
 <hr>
 <h2>Contador: {{counter}} seg</h2>
@@ -20,12 +13,3 @@ IDADE <u>{{2022 - nascimento}} anos</u>
 </button>
 
 <hr>
-
-<h3>NÚMEROS ALEATÓRIOS</h3>
-<button (click) = "refreshRandomNumbers()"> GERAR </button>
-
-<hr>
-<div *ngFor="let n of numbers"> {{n}}: 
-  <span *ngIf="n % 2 == 0">NÚMERO PAR</span>
-  <span *ngIf="n % 2 != 0">NÚMERO IMPAR</span>
-</div>
